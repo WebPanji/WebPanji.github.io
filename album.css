@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 2px;
+}
+
+.gallery {
+    display:ruby-base;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.album {
+    margin: 15px;
+}
+
+.album img {
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(192, 11, 11, 0.1);
+    transition: transform 0.2s;
+}
+
+.album img:hover {
+    transform: scale(1.1);
+}
